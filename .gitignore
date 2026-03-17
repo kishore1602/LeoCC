@@ -318,3 +318,39 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+
+leoreplayer/replayer/**/*/*.pcap
+
+# LeoCC generated kernel module artifacts
+leocc/live_network/*.ko
+leocc/live_network/*.mod
+leocc/live_network/*.mod.c
+leocc/live_network/*.mod.o
+leocc/live_network/*.o
+leocc/live_network/Module.symvers
+leocc/live_network/modules.order
+leocc/live_network/.*.cmd
+leocc/live_network/.module-common.o
+leocc/live_network/monitor_ping
+
+leocc/simulation/*.ko
+leocc/simulation/*.mod
+leocc/simulation/*.mod.c
+leocc/simulation/*.mod.o
+leocc/simulation/*.o
+leocc/simulation/Module.symvers
+leocc/simulation/modules.order
+leocc/simulation/.*.cmd
+
+LeoReplayer generated traces/data/log-like outputs
+leoreplayer/replayer/example/**/*.txt
+leoreplayer/replayer/example/**/logs/
+leoreplayer/replayer/example/**/data/
+leoreplayer/replayer/sample_trace/
+leoreplayer/replayer/static_traces_*/
+leoreplayer/replayer/organized_traces_*/
+leoreplayer/replayer/experiments_*/
+leoreplayer/replayer/example/*_test/
+leoreplayer/replayer/example/*mobility/
+
+leoreplayer/replayer/traces/*
